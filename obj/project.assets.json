@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Boot Camp\\vs_code\\CodeSmells\\CodeSmells.csproj",
+      "projectUniqueName": "C:\\Users\\Boot Camp\\CODEREVIEW\\code_smells\\CodeSmells.csproj",
       "projectName": "CodeSmells",
-      "projectPath": "C:\\Users\\Boot Camp\\vs_code\\CodeSmells\\CodeSmells.csproj",
+      "projectPath": "C:\\Users\\Boot Camp\\CODEREVIEW\\code_smells\\CodeSmells.csproj",
       "packagesPath": "C:\\Users\\Boot Camp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Boot Camp\\vs_code\\CodeSmells\\obj\\",
+      "outputPath": "C:\\Users\\Boot Camp\\CODEREVIEW\\code_smells\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Boot Camp\\AppData\\Roaming\\NuGet\\NuGet.Config",

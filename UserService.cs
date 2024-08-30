@@ -1,4 +1,6 @@
 // DataAccess/UserService.cs
+
+// Unnecessary "using" directives.
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Json;
@@ -7,6 +9,7 @@ using CodeSmells.Domain;
 
 namespace CodeSmells.DataAccess
 {
+    // Add dependency injection.
     public class UserService
     {
         private readonly HttpClient _httpClient;
