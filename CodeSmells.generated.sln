@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeSmells", "CodeSmells.csproj", "{FD85781C-CF88-40E1-99B4-EA5916DDF223}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeSmells", "code_smells\CodeSmells.csproj", "{25A1498D-9555-44D8-9944-7922328D4882}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FD85781C-CF88-40E1-99B4-EA5916DDF223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD85781C-CF88-40E1-99B4-EA5916DDF223}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD85781C-CF88-40E1-99B4-EA5916DDF223}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FD85781C-CF88-40E1-99B4-EA5916DDF223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25A1498D-9555-44D8-9944-7922328D4882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A1498D-9555-44D8-9944-7922328D4882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25A1498D-9555-44D8-9944-7922328D4882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25A1498D-9555-44D8-9944-7922328D4882}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,9 +1,14 @@
 ﻿using System.Net.Http.Json;
 using CodeSmells.Domain;
 
+// Please add unit testing for this.
 
+// Followed the SRP principle. However, you can improve it by separating them by folder or creating a better folder structure.
+
+// Namespace follows standard convention. Good.
 namespace CodeSmells
 {
+    // Code is generally readable
     class Program
     {
         static async Task Main(string[] args)
@@ -15,6 +20,8 @@ namespace CodeSmells
                 try
                 {
                     List<User> users = await client.GetFromJsonAsync<List<User>>(apiUrl);
+
+                    // Please add null checker for users. This might lead to a NRE.
 
                     foreach (var user in users)
                     {
@@ -30,6 +37,7 @@ namespace CodeSmells
                         Console.WriteLine("**Next User**");
                     }
                 }
+                // If you can add more specific error handlers, please do.
                 catch (Exception ex)
                 {
                     Console.WriteLine(ex.Message);
